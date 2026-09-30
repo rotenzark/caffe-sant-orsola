@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="it" class="no-js">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script>(function(){var r=document.documentElement;r.classList.remove('no-js');
+/* la firma: finché main.js non parte c'è la tazza vuota; se il codice non arriva, dopo 2,5 s la colazione servita */
+try{if(!matchMedia('(prefers-reduced-motion: reduce)').matches){r.classList.add('firma-attesa');window.__attesaColazione=setTimeout(function(){r.classList.remove('firma-attesa')},2500)}}catch(e){}})()</script>
+<title>Caffè Sant'Orsola — Bar tavola fredda in Via Sant'Orsola 5, Milano (Palazzo Borromeo)</title>
+<meta name="description" content="Caffè Sant'Orsola, Via Sant'Orsola 5, Milano, a due passi da Palazzo Borromeo: colazione dalle 7 con cappuccino e cornetti, pranzo col menù del giorno, panini e insalatone, la pausa del pomeriggio. Dal lunedì al venerdì 7–17. Google 4,7 su 204. Tel. 02 3105 9506.">
+<link rel="canonical" href="https://rotenzark.github.io/caffe-sant-orsola/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Caffè Sant'Orsola — Vi aspettiamo per le vostre pause.">
+<meta property="og:description" content="Il bar tavola fredda di Via Sant'Orsola 5, dietro Palazzo Borromeo: colazione, pranzo, la pausa del pomeriggio.">
+<meta property="og:image" content="https://rotenzark.github.io/caffe-sant-orsola/img/og.jpg">
+<meta property="og:url" content="https://rotenzark.github.io/caffe-sant-orsola/">
+<meta property="og:locale" content="it_IT">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#161412">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="img/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&amp;family=Manuale:ital,wght@0,500;0,700;1,500&amp;family=Manjari:wght@400;700&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css?v=1">
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js" defer></script>
+<script src="js/main.js?v=1" defer></script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"CafeOrCoffeeShop","name":"Caffè Sant'Orsola","description":"Bar tavola fredda in Via Sant'Orsola 5 a Milano, a due passi da Palazzo Borromeo: colazione con cappuccino e cornetti, pranzo col menù del giorno, panini, focacce e insalatone. Dal lunedì al venerdì dalle 7 alle 17.","url":"https://rotenzark.github.io/caffe-sant-orsola/","image":"https://rotenzark.github.io/caffe-sant-orsola/img/og.jpg","telephone":"+39 02 3105 9506","email":"caffesantorsola@libero.it","servesCuisine":"Italiana","address":{"@type":"PostalAddress","streetAddress":"Via Sant'Orsola 5","postalCode":"20123","addressLocality":"Milano","addressRegion":"MI","addressCountry":"IT"},"geo":{"@type":"GeoCoordinates","latitude":45.4628779,"longitude":9.1817064},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"07:00","closes":"17:00"}],"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.7","reviewCount":"204","bestRating":"5"},"sameAs":["https://www.facebook.com/caffesantorsolamilano","https://www.instagram.com/caffe_santorsola/"]}
+</script>
+</head>
+<body>
+
+<a class="salta" href="#contenuto" data-i18n="m.salta">Vai al contenuto</a>
+
+<header class="testata" id="testata">
+  <div class="testata__dentro">
+    <a class="marchio" href="#inizio" aria-label="Caffè Sant'Orsola: torna all'inizio" data-i18n-aria="m.top">
+      <svg class="marchio__chicchi" viewBox="0 0 40 28" aria-hidden="true" focusable="false"><path d="M19 4 C 11 1, 3 7, 5 16 C 7 24, 15 26, 19 22 C 21 16, 16 13, 19 4 Z M21 4 C 29 1, 37 7, 35 16 C 33 24, 25 26, 21 22 C 19 16, 24 13, 21 4 Z"/></svg>
+      <span class="marchio__nome" aria-hidden="true">Caffè Sant'Orsola</span>
+    </a>
+    <nav id="mainNav" class="voci" aria-label="Le sezioni" data-i18n-aria="m.nav">
+      <a href="#pause" data-i18n="n.pause">Le pause</a>
+      <a href="#locale" data-i18n="n.locale">Il locale</a>
+      <a href="#dicono" data-i18n="n.dicono">Dicono</a>
+      <a href="#orari" data-i18n="n.orari">Orari</a>
+      <a href="#dove" data-i18n="n.dove">Dove</a>
+    </nav>
+    <div class="testata__azioni">
+      <div class="lingue" role="group" aria-label="Lingua" data-i18n-aria="m.lingua">
+        <button type="button" data-lang="it" aria-pressed="true">IT</button>
+        <button type="button" data-lang="en" aria-pressed="false">EN</button>
+      </div>
+      <a class="chiama" href="tel:+390231059506"><span data-i18n="t.chiama">Chiama</span></a>
+      <button id="burger" class="burger" type="button" aria-expanded="false" aria-controls="menuMobile" aria-label="Apri il menu" data-i18n-aria="m.menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<nav id="menuMobile" class="menu-mobile" hidden aria-label="Le sezioni" data-i18n-aria="m.nav">
+  <a href="#pause" data-i18n="n.pause">Le pause</a>
+  <a href="#locale" data-i18n="n.locale">Il locale</a>
+  <a href="#dicono" data-i18n="n.dicono">Dicono</a>
+  <a href="#orari" data-i18n="n.orari">Orari</a>
+  <a href="#dove" data-i18n="n.dove">Dove</a>
+  <a class="menu-mobile__tel" href="tel:+390231059506"><span data-i18n="t.chiama">Chiama</span> <span class="intero">02 3105 9506</span></a>
+</nav>
+
+<main id="contenuto">
+
+  <!-- ══════ L'APERTURA: la pietra chiara, la vetrina ══════ -->
+  <section id="inizio" class="apertura" aria-labelledby="titolo">
+    <div class="apertura__testo">
+      <p class="apertura__sopra" data-i18n="h.sopra">Bar tavola fredda · Via Sant'Orsola 5, a due passi da Palazzo Borromeo</p>
+      <h1 id="titolo" class="titolo" data-i18n="h.titolo">Vi aspettiamo per le vostre pause.</h1>
+      <p class="apertura__seconda" data-i18n="h.seconda">Per rilassarvi e scambiare due chiacchiere in buona compagnia.</p>
+      <p class="apertura__frase" data-i18n="h.testo">Dal lunedì al venerdì, dalle 7 alle 17: la colazione, il pranzo, la pausa del pomeriggio. Da Katia e Nicola.</p>
+      <p class="voto"><b class="voto__n">4,7</b> <span class="voto__su" data-i18n="h.google">su Google, 204 recensioni</span></p>
+      <blockquote class="citazione">
+        <p>«Finalmente una ventata di freschezza, simpatia e professionalità in via Sant'Orsola !»</p>
+        <footer data-i18n="h.chi">C. R., in una raccomandazione sulla nostra Pagina Facebook</footer>
+      </blockquote>
+      <p class="stato" id="orarioStato">Dal lunedì al venerdì, 7–17</p>
+      <div class="apertura__azioni">
+        <a class="bottone bottone--pieno" href="tel:+390231059506"><span data-i18n="t.chiama">Chiama</span>&nbsp;<span class="intero">02 3105 9506</span></a>
+        <a class="bottone bottone--vuoto" href="https://www.google.com/maps/dir/?api=1&amp;destination=Caff%C3%A8+Sant%27Orsola%2C+Via+Sant%27Orsola+5%2C+20123+Milano" target="_blank" rel="noopener" data-i18n="t.indicazioni">Indicazioni</a>
+      </div>
+    </div>
+    <div class="apertura__firma">
+      <div class="pietra">
+        <p class="pietra__scritta" aria-hidden="true" data-i18n="p.scritta">Cannella o cacao?</p>
+        <figure class="vetrina" id="colazione-firma" data-modo="0" data-firma="fatta">
+          <!--COLAZIONE--><svg class="colazione__svg" id="colazioneSvg" viewBox="0 0 560 560" role="img" aria-labelledby="colazioneTitolo colazioneDesc">
+        <title id="colazioneTitolo" data-i18n="p.titolo">Cannella o cacao?</title>
+        <desc id="colazioneDesc" data-i18n="p.desc">Dall'alto, sul banco di legno chiaro: una tazza bianca sul piattino e, accanto, un piatto sul tovagliolo di carta. L'espresso riempie la tazza, la lattiera arriva e versa dondolando: il latte schiarisce la crema e sale una rosetta bianca, che un ultimo filo taglia in due. Poi lo spolverino lascia il cacao o la cannella, e sul piatto arriva il cornetto. Tre colazioni: cacao col cornetto al pistacchio, cannella con la brioche integrale al miele, di soia con la brioche vegana.</desc>
+        <defs>
+          <radialGradient id="cso-crema" cx="0" cy="0" r="68" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#5A3520"/><stop offset=".8" stop-color="#6E4226"/><stop offset="1" stop-color="#9A6236"/></radialGradient>
+          <radialGradient id="cso-latte" cx="215" cy="300" r="68" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#C79461"/><stop offset=".78" stop-color="#B07A48"/><stop offset="1" stop-color="#8E5A32"/></radialGradient>
+          <clipPath id="cso-liquido"><circle cx="215" cy="300" r="68"/></clipPath>
+          <clipPath id="cso-svela"><rect class="svela" x="-80" y="-50" width="160" height="100" transform="translate(0 0)"/></clipPath>
+        </defs>
+        <rect class="banco" x="0" y="0" width="560" height="560"/><path class="banco__giunte" d="M0 92 H560 M0 196 H560 M0 300 H560 M0 404 H560 M0 508 H560"/><path class="banco__vene" d="M29 18 C 149 13, 289 24, 449 18 M-51 55 C 69 50, 209 61, 369 55 M22 95 C 142 90, 282 101, 442 95 M34 125 C 154 120, 294 131, 454 125 M-4 159 C 116 154, 256 165, 416 159 M83 190 C 203 185, 343 196, 503 190 M16 223 C 136 218, 276 229, 436 223 M105 262 C 225 257, 365 268, 525 262 M-43 294 C 77 289, 217 300, 377 294 M87 326 C 207 321, 347 332, 507 326 M51 364 C 171 359, 311 370, 471 364 M-13 397 C 107 392, 247 403, 407 397 M99 429 C 219 424, 359 435, 519 429 M-21 460 C 99 455, 239 466, 399 460 M83 500 C 203 495, 343 506, 503 500 M17 528 C 137 523, 277 534, 437 528"/>
+        <g class="servito" transform="translate(0 0)">
+          <rect class="tovagliolo" x="354" y="62" width="172" height="172" transform="rotate(10 440 142)"/><path class="tovagliolo__piega" d="M354 148 H526" transform="rotate(10 440 142)"/><circle class="piatto" cx="440" cy="142" r="80"/><circle class="piatto__fondo" cx="440" cy="142" r="56"/>
+          <g class="modo modo--cacao" data-m="0"><g class="cornetto" data-m="0" transform="translate(0 0) rotate(0 440 142)" opacity="1"><g transform="translate(440 142) rotate(-18)"><path class="cornetto__ombra" d="M-58 26 C -62 -12, -30 -40, 0 -40 C 30 -40, 62 -12, 58 26 C 50 18, 40 12, 28 12 C 16 4, -16 4, -28 12 C -40 12, -50 18, -58 26 Z" transform="translate(4 6)"/><path class="cornetto__pasta cornetto__pasta--pistacchio" d="M-58 26 C -62 -12, -30 -40, 0 -40 C 30 -40, 62 -12, 58 26 C 50 18, 40 12, 28 12 C 16 4, -16 4, -28 12 C -40 12, -50 18, -58 26 Z"/><path class="cornetto__righe" d="M-44 -16 C -36 -6, -36 4, -40 12 M-22 -32 C -16 -20, -16 -8, -19 5 M0 -38 C 4 -26, 4 -12, 1 3 M22 -32 C 17 -20, 17 -8, 20 5 M44 -16 C 38 -6, 38 4, 42 12"/><circle class="cornetto__crema" cx="-55" cy="20" r="10"/><circle class="cornetto__crema" cx="55" cy="20" r="10"/><path class="cornetto__granella" d="M-8 -30 h0.1 M6 -28 h0.1 M-18 -22 h0.1 M16 -20 h0.1 M-2 -18 h0.1 M-28 -12 h0.1 M26 -12 h0.1"/></g></g></g><g class="modo modo--cannella" data-m="1"><g class="cornetto" data-m="1" transform="translate(0 0) rotate(0 440 142)" opacity="1"><g transform="translate(440 142) rotate(-18)"><path class="cornetto__ombra" d="M-58 26 C -62 -12, -30 -40, 0 -40 C 30 -40, 62 -12, 58 26 C 50 18, 40 12, 28 12 C 16 4, -16 4, -28 12 C -40 12, -50 18, -58 26 Z" transform="translate(4 6)"/><path class="cornetto__pasta cornetto__pasta--miele" d="M-58 26 C -62 -12, -30 -40, 0 -40 C 30 -40, 62 -12, 58 26 C 50 18, 40 12, 28 12 C 16 4, -16 4, -28 12 C -40 12, -50 18, -58 26 Z"/><path class="cornetto__righe" d="M-44 -16 C -36 -6, -36 4, -40 12 M-22 -32 C -16 -20, -16 -8, -19 5 M0 -38 C 4 -26, 4 -12, 1 3 M22 -32 C 17 -20, 17 -8, 20 5 M44 -16 C 38 -6, 38 4, 42 12"/><path class="cornetto__miele" d="M-46 -8 L-32 -24 L-18 -8 L-4 -28 L10 -8 L24 -26 L38 -8 L50 -18"/></g></g></g><g class="modo modo--soia" data-m="2"><g class="cornetto" data-m="2" transform="translate(0 0) rotate(0 440 142)" opacity="1"><g transform="translate(440 142) rotate(-18)"><path class="cornetto__ombra" d="M-58 26 C -62 -12, -30 -40, 0 -40 C 30 -40, 62 -12, 58 26 C 50 18, 40 12, 28 12 C 16 4, -16 4, -28 12 C -40 12, -50 18, -58 26 Z" transform="translate(4 6)"/><path class="cornetto__pasta cornetto__pasta--vegano" d="M-58 26 C -62 -12, -30 -40, 0 -40 C 30 -40, 62 -12, 58 26 C 50 18, 40 12, 28 12 C 16 4, -16 4, -28 12 C -40 12, -50 18, -58 26 Z"/><path class="cornetto__righe" d="M-44 -16 C -36 -6, -36 4, -40 12 M-22 -32 C -16 -20, -16 -8, -19 5 M0 -38 C 4 -26, 4 -12, 1 3 M22 -32 C 17 -20, 17 -8, 20 5 M44 -16 C 38 -6, 38 4, 42 12"/><path class="cornetto__zucchero" d="M-30 -24 h0.1 M-12 -30 h0.1 M8 -30 h0.1 M28 -24 h0.1 M-40 -8 h0.1 M-20 -14 h0.1 M0 -18 h0.1 M20 -14 h0.1 M42 -8 h0.1 M-8 -6 h0.1 M12 -6 h0.1"/></g></g></g>
+          <circle class="piattino" cx="215" cy="300" r="118"/><circle class="piattino__giro" cx="215" cy="300" r="94"/><g transform="translate(277 370) rotate(38)"><ellipse class="cucchiaino" cx="0" cy="0" rx="13" ry="8"/><path class="cucchiaino__manico" d="M12 0 H66"/></g><circle class="tazza__ombra" cx="221" cy="308" r="84"/><path class="tazza__manico" d="M-80 -14 C -100 -16, -114 -12, -116 0 C -114 12, -100 16, -80 14 Z" transform="translate(215 300) rotate(-24)"/><circle class="tazza" cx="215" cy="300" r="84"/>
+          <g clip-path="url(#cso-liquido)">
+            <circle class="tazza__dentro" cx="215" cy="300" r="68"/>
+            <g class="espresso" transform="translate(215 300) scale(1)"><circle class="espresso__crema" cx="0" cy="0" r="68"/></g>
+            <circle class="latte" cx="215" cy="300" r="68" opacity="1"/>
+            <g transform="translate(215 300)"><g clip-path="url(#cso-svela)"><g class="modo modo--cacao" data-m="0"><g class="rosetta rosetta--cacao"><path class="rosetta__mezzelune" d="M-30 46 C -21 31, 21 31, 30 46 M-40 35 C -28 16, 28 16, 40 35 M-44 24 C -30.8 3, 30.8 3, 44 24 M-42 13 C -29.4 -8, 29.4 -8, 42 13 M-36 2 C -25.2 -18, 25.2 -18, 36 2 M-28 -9 C -19.6 -27, 19.6 -27, 28 -9 M-19 -20 C -13.3 -36, 13.3 -36, 19 -20"/><path class="rosetta__cima" d="M0 -30 C -10 -34, -12 -46, -4 -50 C -1 -51, 0 -49, 0 -47 C 0 -49, 1 -51, 4 -50 C 12 -46, 10 -34, 0 -30 Z"/></g></g><g class="modo modo--cannella" data-m="1"><g class="rosetta rosetta--cannella"><path class="rosetta__mezzelune" d="M-30 46 C -21 31, 21 31, 30 46 M-40 35 C -28 16, 28 16, 40 35 M-44 24 C -30.8 3, 30.8 3, 44 24 M-42 13 C -29.4 -8, 29.4 -8, 42 13 M-36 2 C -25.2 -18, 25.2 -18, 36 2 M-28 -9 C -19.6 -27, 19.6 -27, 28 -9 M-19 -20 C -13.3 -36, 13.3 -36, 19 -20"/><path class="rosetta__cima" d="M0 -30 C -10 -34, -12 -46, -4 -50 C -1 -51, 0 -49, 0 -47 C 0 -49, 1 -51, 4 -50 C 12 -46, 10 -34, 0 -30 Z"/></g></g><g class="modo modo--soia" data-m="2"><g class="rosetta rosetta--soia"><path class="rosetta__mezzelune" d="M-30 46 C -21 31, 21 31, 30 46 M-40 35 C -28 16, 28 16, 40 35 M-44 24 C -30.8 3, 30.8 3, 44 24 M-42 13 C -29.4 -8, 29.4 -8, 42 13 M-36 2 C -25.2 -18, 25.2 -18, 36 2 M-28 -9 C -19.6 -27, 19.6 -27, 28 -9 M-19 -20 C -13.3 -36, 13.3 -36, 19 -20"/><path class="rosetta__cima" d="M0 -30 C -10 -34, -12 -46, -4 -50 C -1 -51, 0 -49, 0 -47 C 0 -49, 1 -51, 4 -50 C 12 -46, 10 -34, 0 -30 Z"/></g></g></g>
+              <path class="taglio" pathLength="1" stroke-dasharray="1 2" d="M0 -48 C 1 -16, -1 16, 0 46" stroke-dashoffset="0"/></g>
+            <g class="modo modo--cacao" data-m="0"><g class="polvere polvere--cacao" data-m="0" transform="translate(215 300) scale(1)"><circle cx="34" cy="-29.2" r="1"/><circle cx="-46.6" cy="-38.9" r="1.2"/><circle cx="6.9" cy="-4.9" r="1.5"/><circle cx="21.5" cy="-56.4" r="1.2"/><circle cx="27.7" cy="48" r="1.8"/><circle cx="-7.1" cy="-61.6" r="1.6"/><circle cx="-28.5" cy="13.1" r="1.5"/><circle cx="59.8" cy="9.1" r="1.6"/><circle cx="-34.6" cy="46.5" r="0.9"/><circle cx="-30.4" cy="-52.3" r="1.4"/><circle cx="-19" cy="-39.9" r="1.7"/><circle cx="-54.6" cy="24.1" r="1.8"/><circle cx="-49.8" cy="25.2" r="1.4"/><circle cx="2.1" cy="13.4" r="0.9"/><circle cx="9.5" cy="-18.1" r="1.2"/><circle cx="-36.1" cy="-12" r="1.3"/><circle cx="30" cy="23.6" r="1.1"/><circle cx="-41.3" cy="-20.4" r="1.7"/><circle cx="50" cy="35.6" r="1.8"/><circle cx="7.1" cy="-46.1" r="1.2"/><circle cx="32" cy="-38.2" r="1.4"/><circle cx="-15.5" cy="42.5" r="1.1"/><circle cx="45.5" cy="-10.9" r="1.7"/><circle cx="14.9" cy="19.8" r="1.8"/><circle cx="-12.1" cy="-31" r="1.6"/><circle cx="-38.1" cy="43.9" r="1.3"/><circle cx="-29.8" cy="-1.7" r="1"/><circle cx="17.2" cy="-55.3" r="1.1"/><circle cx="1.7" cy="-36.1" r="1.7"/><circle cx="-1.7" cy="0.7" r="0.9"/><circle cx="45.3" cy="9.5" r="1.2"/><circle cx="12.4" cy="-32.6" r="1.5"/><circle cx="43.4" cy="-2.8" r="1.6"/><circle cx="23.4" cy="44.3" r="1.3"/><circle cx="1.2" cy="31.9" r="1.3"/><circle cx="-30.1" cy="-29.3" r="1.2"/><circle cx="-44.2" cy="2.4" r="1"/><circle cx="-38.4" cy="-40.8" r="1.3"/><circle cx="-26.7" cy="-10.6" r="1.6"/><circle cx="-14" cy="14.3" r="1.4"/><circle cx="-20.8" cy="18" r="1.4"/><circle cx="34.3" cy="-18.3" r="1"/><circle cx="29.7" cy="-48.2" r="1.6"/><circle cx="1.9" cy="32.9" r="1.1"/><circle cx="-22.6" cy="54.9" r="1.5"/><circle cx="-37.3" cy="-15.4" r="1.4"/><circle cx="-50" cy="18.7" r="0.9"/><circle cx="11.7" cy="-53.6" r="0.9"/><circle cx="9.1" cy="-42.3" r="1.5"/><circle cx="56.9" cy="3" r="1.8"/><circle cx="24.8" cy="-18.4" r="1.1"/><circle cx="-28.8" cy="31.6" r="1.8"/><circle cx="0.4" cy="-42.5" r="1.1"/><circle cx="-44.2" cy="-19.3" r="1.8"/><circle cx="-7.1" cy="16.6" r="1.3"/><circle cx="54.8" cy="-14" r="1"/><circle cx="-46.4" cy="-25.1" r="1.7"/><circle cx="-37.4" cy="0.3" r="1.1"/><circle cx="42.8" cy="-26.5" r="1"/><circle cx="-34.3" cy="-12.2" r="1.5"/><circle cx="5.5" cy="-8.6" r="1.4"/><circle cx="38.7" cy="-40.1" r="1.6"/><circle cx="15.4" cy="23.9" r="1.6"/><circle cx="3" cy="-19" r="1.5"/><circle cx="22" cy="-31.2" r="1.2"/><circle cx="-27.4" cy="-0.4" r="1"/><circle cx="-54.5" cy="-8.5" r="1.8"/><circle cx="-59.4" cy="-11.8" r="1.7"/><circle cx="-40.6" cy="42.8" r="1.3"/><circle cx="-27.4" cy="-43.9" r="1.7"/><circle cx="36.1" cy="45.3" r="0.9"/><circle cx="-28.6" cy="54.7" r="1.5"/><circle cx="50.3" cy="-21.6" r="0.9"/><circle cx="44.1" cy="2.7" r="0.9"/><circle cx="-47.7" cy="-3.3" r="1.4"/><circle cx="-31.4" cy="2.7" r="1.1"/><circle cx="6.3" cy="-20.1" r="0.9"/><circle cx="31.8" cy="-23.3" r="1.7"/><circle cx="-22" cy="29.3" r="1.7"/><circle cx="-7.2" cy="42.1" r="1.3"/><circle cx="-14.5" cy="59" r="1.5"/><circle cx="32.5" cy="32.3" r="1.5"/><circle cx="-12" cy="-15.9" r="1"/><circle cx="14.6" cy="14.5" r="1.6"/><circle cx="-3.2" cy="-7.4" r="1.4"/><circle cx="-35.2" cy="33.3" r="1.8"/><circle cx="40.5" cy="34.4" r="1.7"/><circle cx="22.2" cy="-41.2" r="1"/><circle cx="-52.6" cy="31.8" r="1.5"/><circle cx="-2.4" cy="-50.3" r="1.2"/><circle cx="-40.3" cy="45.8" r="1.5"/><circle cx="-38.3" cy="-21.2" r="1.4"/><circle cx="-10.7" cy="-31.7" r="1.2"/><circle cx="4.4" cy="-18.4" r="1.3"/><circle cx="-37.2" cy="-37.8" r="1.4"/><circle cx="6.4" cy="-35.5" r="1.3"/><circle cx="20.7" cy="-7.3" r="1"/><circle cx="-42.9" cy="6.5" r="1.6"/><circle cx="-37" cy="20.9" r="1.5"/><circle cx="-3.8" cy="-56.9" r="1"/><circle cx="-26.3" cy="53.2" r="1.1"/><circle cx="-1.7" cy="16.6" r="1.7"/><circle cx="50.4" cy="22.6" r="1.3"/><circle cx="-46.4" cy="18.9" r="0.9"/><circle cx="35" cy="-16.9" r="1"/><circle cx="-24.8" cy="38.1" r="1"/><circle cx="-12.2" cy="-30.1" r="1.3"/><circle cx="-30" cy="-48.7" r="1.5"/><circle cx="-37.8" cy="39.7" r="1.8"/><circle cx="0.1" cy="-21.6" r="1"/><circle cx="16.6" cy="1.7" r="0.9"/><circle cx="49.2" cy="34.1" r="1.5"/><circle cx="-7.4" cy="-32.2" r="1.5"/><circle cx="61.4" cy="5.1" r="1.1"/><circle cx="6.2" cy="-54.3" r="1.6"/><circle cx="12.9" cy="-37.4" r="1.1"/><circle cx="41.7" cy="-27.7" r="1"/><circle cx="-15.4" cy="56.2" r="0.9"/><circle cx="-55.6" cy="17.1" r="1.6"/><circle cx="44.7" cy="-18.9" r="1.1"/><circle cx="5.1" cy="-15.6" r="1.3"/><circle cx="-15.4" cy="-50.9" r="1.8"/><circle cx="-8.7" cy="36.9" r="1.1"/><circle cx="24.5" cy="-18.9" r="1.6"/><circle cx="15.9" cy="-8.1" r="1.8"/><circle cx="38.6" cy="24.8" r="1.3"/><circle cx="18.6" cy="14.1" r="1.6"/><circle cx="-39.6" cy="-8.8" r="1.4"/><circle cx="9.1" cy="-53.4" r="1.8"/><circle cx="-5" cy="46" r="1.1"/><circle cx="51.7" cy="9.5" r="1.7"/><circle cx="-13.5" cy="-19.4" r="1.1"/><circle cx="-21.3" cy="-30.2" r="1.3"/><circle cx="-30.7" cy="-38.6" r="1.7"/><circle cx="8.2" cy="-1.8" r="1.3"/><circle cx="-10.7" cy="21.8" r="1.2"/><circle cx="-11.7" cy="18.9" r="1.3"/><circle cx="31.2" cy="-23" r="1.2"/><circle cx="-4.4" cy="-15.9" r="1.7"/><circle cx="1.7" cy="-51.2" r="1.2"/><circle cx="38" cy="21.4" r="1.7"/><circle cx="10.1" cy="51.5" r="1.7"/><circle cx="5.3" cy="-50.4" r="1.7"/><circle cx="36.9" cy="-36" r="1.2"/><circle cx="-37.9" cy="-47.9" r="1.7"/><circle cx="-14.1" cy="29.8" r="1.2"/><circle cx="0" cy="8" r="1"/><circle cx="43.9" cy="-18.8" r="1.6"/><circle cx="38.8" cy="-25.5" r="1"/><circle cx="11.9" cy="35.3" r="1.5"/></g></g><g class="modo modo--cannella" data-m="1"><g class="polvere polvere--cannella" data-m="1" transform="translate(215 300) scale(1)"><circle cx="34" cy="-29.2" r="1"/><circle cx="-46.6" cy="-38.9" r="1.2"/><circle cx="6.9" cy="-4.9" r="1.5"/><circle cx="21.5" cy="-56.4" r="1.2"/><circle cx="27.7" cy="48" r="1.8"/><circle cx="-7.1" cy="-61.6" r="1.6"/><circle cx="-28.5" cy="13.1" r="1.5"/><circle cx="59.8" cy="9.1" r="1.6"/><circle cx="-34.6" cy="46.5" r="0.9"/><circle cx="-30.4" cy="-52.3" r="1.4"/><circle cx="-19" cy="-39.9" r="1.7"/><circle cx="-54.6" cy="24.1" r="1.8"/><circle cx="-49.8" cy="25.2" r="1.4"/><circle cx="2.1" cy="13.4" r="0.9"/><circle cx="9.5" cy="-18.1" r="1.2"/><circle cx="-36.1" cy="-12" r="1.3"/><circle cx="30" cy="23.6" r="1.1"/><circle cx="-41.3" cy="-20.4" r="1.7"/><circle cx="50" cy="35.6" r="1.8"/><circle cx="7.1" cy="-46.1" r="1.2"/><circle cx="32" cy="-38.2" r="1.4"/><circle cx="-15.5" cy="42.5" r="1.1"/><circle cx="45.5" cy="-10.9" r="1.7"/><circle cx="14.9" cy="19.8" r="1.8"/><circle cx="-12.1" cy="-31" r="1.6"/><circle cx="-38.1" cy="43.9" r="1.3"/><circle cx="-29.8" cy="-1.7" r="1"/><circle cx="17.2" cy="-55.3" r="1.1"/><circle cx="1.7" cy="-36.1" r="1.7"/><circle cx="-1.7" cy="0.7" r="0.9"/><circle cx="45.3" cy="9.5" r="1.2"/><circle cx="12.4" cy="-32.6" r="1.5"/><circle cx="43.4" cy="-2.8" r="1.6"/><circle cx="23.4" cy="44.3" r="1.3"/><circle cx="1.2" cy="31.9" r="1.3"/><circle cx="-30.1" cy="-29.3" r="1.2"/><circle cx="-44.2" cy="2.4" r="1"/><circle cx="-38.4" cy="-40.8" r="1.3"/><circle cx="-26.7" cy="-10.6" r="1.6"/><circle cx="-14" cy="14.3" r="1.4"/><circle cx="-20.8" cy="18" r="1.4"/><circle cx="34.3" cy="-18.3" r="1"/><circle cx="29.7" cy="-48.2" r="1.6"/><circle cx="1.9" cy="32.9" r="1.1"/><circle cx="-22.6" cy="54.9" r="1.5"/><circle cx="-37.3" cy="-15.4" r="1.4"/><circle cx="-50" cy="18.7" r="0.9"/><circle cx="11.7" cy="-53.6" r="0.9"/><circle cx="9.1" cy="-42.3" r="1.5"/><circle cx="56.9" cy="3" r="1.8"/><circle cx="24.8" cy="-18.4" r="1.1"/><circle cx="-28.8" cy="31.6" r="1.8"/><circle cx="0.4" cy="-42.5" r="1.1"/><circle cx="-44.2" cy="-19.3" r="1.8"/><circle cx="-7.1" cy="16.6" r="1.3"/><circle cx="54.8" cy="-14" r="1"/><circle cx="-46.4" cy="-25.1" r="1.7"/><circle cx="-37.4" cy="0.3" r="1.1"/><circle cx="42.8" cy="-26.5" r="1"/><circle cx="-34.3" cy="-12.2" r="1.5"/><circle cx="5.5" cy="-8.6" r="1.4"/><circle cx="38.7" cy="-40.1" r="1.6"/><circle cx="15.4" cy="23.9" r="1.6"/><circle cx="3" cy="-19" r="1.5"/><circle cx="22" cy="-31.2" r="1.2"/><circle cx="-27.4" cy="-0.4" r="1"/><circle cx="-54.5" cy="-8.5" r="1.8"/><circle cx="-59.4" cy="-11.8" r="1.7"/><circle cx="-40.6" cy="42.8" r="1.3"/><circle cx="-27.4" cy="-43.9" r="1.7"/><circle cx="36.1" cy="45.3" r="0.9"/><circle cx="-28.6" cy="54.7" r="1.5"/><circle cx="50.3" cy="-21.6" r="0.9"/><circle cx="44.1" cy="2.7" r="0.9"/><circle cx="-47.7" cy="-3.3" r="1.4"/><circle cx="-31.4" cy="2.7" r="1.1"/><circle cx="6.3" cy="-20.1" r="0.9"/><circle cx="31.8" cy="-23.3" r="1.7"/><circle cx="-22" cy="29.3" r="1.7"/><circle cx="-7.2" cy="42.1" r="1.3"/><circle cx="-14.5" cy="59" r="1.5"/><circle cx="32.5" cy="32.3" r="1.5"/><circle cx="-12" cy="-15.9" r="1"/><circle cx="14.6" cy="14.5" r="1.6"/><circle cx="-3.2" cy="-7.4" r="1.4"/><circle cx="-35.2" cy="33.3" r="1.8"/><circle cx="40.5" cy="34.4" r="1.7"/><circle cx="22.2" cy="-41.2" r="1"/><circle cx="-52.6" cy="31.8" r="1.5"/><circle cx="-2.4" cy="-50.3" r="1.2"/><circle cx="-40.3" cy="45.8" r="1.5"/><circle cx="-38.3" cy="-21.2" r="1.4"/><circle cx="-10.7" cy="-31.7" r="1.2"/><circle cx="4.4" cy="-18.4" r="1.3"/><circle cx="-37.2" cy="-37.8" r="1.4"/><circle cx="6.4" cy="-35.5" r="1.3"/><circle cx="20.7" cy="-7.3" r="1"/><circle cx="-42.9" cy="6.5" r="1.6"/><circle cx="-37" cy="20.9" r="1.5"/><circle cx="-3.8" cy="-56.9" r="1"/><circle cx="-26.3" cy="53.2" r="1.1"/><circle cx="-1.7" cy="16.6" r="1.7"/><circle cx="50.4" cy="22.6" r="1.3"/><circle cx="-46.4" cy="18.9" r="0.9"/><circle cx="35" cy="-16.9" r="1"/><circle cx="-24.8" cy="38.1" r="1"/><circle cx="-12.2" cy="-30.1" r="1.3"/><circle cx="-30" cy="-48.7" r="1.5"/><circle cx="-37.8" cy="39.7" r="1.8"/><circle cx="0.1" cy="-21.6" r="1"/><circle cx="16.6" cy="1.7" r="0.9"/><circle cx="49.2" cy="34.1" r="1.5"/><circle cx="-7.4" cy="-32.2" r="1.5"/><circle cx="61.4" cy="5.1" r="1.1"/><circle cx="6.2" cy="-54.3" r="1.6"/><circle cx="12.9" cy="-37.4" r="1.1"/><circle cx="41.7" cy="-27.7" r="1"/><circle cx="-15.4" cy="56.2" r="0.9"/><circle cx="-55.6" cy="17.1" r="1.6"/><circle cx="44.7" cy="-18.9" r="1.1"/><circle cx="5.1" cy="-15.6" r="1.3"/><circle cx="-15.4" cy="-50.9" r="1.8"/><circle cx="-8.7" cy="36.9" r="1.1"/><circle cx="24.5" cy="-18.9" r="1.6"/><circle cx="15.9" cy="-8.1" r="1.8"/><circle cx="38.6" cy="24.8" r="1.3"/><circle cx="18.6" cy="14.1" r="1.6"/><circle cx="-39.6" cy="-8.8" r="1.4"/><circle cx="9.1" cy="-53.4" r="1.8"/><circle cx="-5" cy="46" r="1.1"/><circle cx="51.7" cy="9.5" r="1.7"/><circle cx="-13.5" cy="-19.4" r="1.1"/><circle cx="-21.3" cy="-30.2" r="1.3"/><circle cx="-30.7" cy="-38.6" r="1.7"/><circle cx="8.2" cy="-1.8" r="1.3"/><circle cx="-10.7" cy="21.8" r="1.2"/><circle cx="-11.7" cy="18.9" r="1.3"/><circle cx="31.2" cy="-23" r="1.2"/><circle cx="-4.4" cy="-15.9" r="1.7"/><circle cx="1.7" cy="-51.2" r="1.2"/><circle cx="38" cy="21.4" r="1.7"/><circle cx="10.1" cy="51.5" r="1.7"/><circle cx="5.3" cy="-50.4" r="1.7"/><circle cx="36.9" cy="-36" r="1.2"/><circle cx="-37.9" cy="-47.9" r="1.7"/><circle cx="-14.1" cy="29.8" r="1.2"/><circle cx="0" cy="8" r="1"/><circle cx="43.9" cy="-18.8" r="1.6"/><circle cx="38.8" cy="-25.5" r="1"/><circle cx="11.9" cy="35.3" r="1.5"/></g></g>
+          </g>
+          <circle class="tazza__bordo" cx="215" cy="300" r="69"/>
+        </g>
+        <g class="lattiera" transform="translate(680 250) rotate(0)"><ellipse class="lattiera__ombra" cx="10" cy="14" rx="44" ry="42"/><rect class="lattiera__manico" x="30" y="-9" width="44" height="18" rx="9"/><path class="lattiera__corpo" d="M-40 0 C -40 -24, -22 -42, 0 -42 C 24 -42, 42 -24, 42 0 C 42 24, 24 42, 0 42 C -22 42, -40 24, -40 0 Z M-40 -9 L-58 0 L-40 9 Z"/><circle class="lattiera__latte" cx="2" cy="0" r="33"/><path class="lattiera__luce" d="M-22 -26 C -12 -34, 8 -36, 22 -28"/></g>
+        <g class="spolverino" transform="translate(-90 110)"><circle class="spolverino__ombra" cx="8" cy="10" r="36"/><circle class="spolverino__disco" cx="0" cy="0" r="34"/><circle class="spolverino__coperchio" cx="0" cy="0" r="27"/><path class="spolverino__fori" d="M0 -18 h0.1 M-9 -9 h0.1 M0 -9 h0.1 M9 -9 h0.1 M-18 0 h0.1 M-9 0 h0.1 M0 0 h0.1 M9 0 h0.1 M18 0 h0.1 M-9 9 h0.1 M0 9 h0.1 M9 9 h0.1 M0 18 h0.1"/></g>
+      </svg><!--/COLAZIONE-->
+          <figcaption class="vetrina__didascalia">
+            <span class="vetrina__d" data-m="0" data-i18n="p.d0">Cacao: il cappuccino con la rosetta e il cacao, e il cornetto al pistacchio.</span>
+            <span class="vetrina__d" data-m="1" data-i18n="p.d1">Cannella: la rosetta con la cannella, e la brioche integrale col miele.</span>
+            <span class="vetrina__d" data-m="2" data-i18n="p.d2">Di soia: la rosetta col latte di soia, senza polvere, e la brioche vegana.</span>
+          </figcaption>
+          <div class="vetrina__modi" role="group" aria-label="Quale colazione" data-i18n-aria="p.modi">
+            <button type="button" data-modo="0" aria-pressed="true" data-i18n="p.b0">Cacao</button>
+            <button type="button" data-modo="1" aria-pressed="false" data-i18n="p.b1">Cannella</button>
+            <button type="button" data-modo="2" aria-pressed="false" data-i18n="p.b2">Di soia</button>
+          </div>
+          <p class="visually-hidden" id="colazioneLeggi" aria-live="polite"></p>
+        </figure>
+      </div>
+      <p class="apertura__nota" data-i18n="p.nota">Sul cappuccino, cannella o cacao: te lo chiediamo prima di farlo.</p>
+    </div>
+  </section>
+
+  <!-- ══════ LE PAUSE DELLA GIORNATA ══════ -->
+  <section id="pause" class="capitolo capitolo--legno" aria-labelledby="pauseT">
+    <p class="etichetta" data-i18n="l.etichetta">La giornata</p>
+    <h2 id="pauseT" class="capitolo__titolo" data-i18n="l.titolo">Le vostre pause, dalle 7 alle 17</h2>
+    <div class="giornata" aria-hidden="true">
+      <span class="giornata__ora giornata__ora--pausa">7</span><span class="giornata__ora">8</span><span class="giornata__ora">9</span><span class="giornata__ora">10</span><span class="giornata__ora">11</span><span class="giornata__ora giornata__ora--pausa">12</span><span class="giornata__ora">13</span><span class="giornata__ora">14</span><span class="giornata__ora giornata__ora--pausa">15</span><span class="giornata__ora">16</span><span class="giornata__ora">17</span>
+    </div>
+    <div class="pause">
+      <article class="pausa pausa--7 reveal" aria-labelledby="pausa7">
+        <p class="pausa__ora" aria-hidden="true">7</p>
+        <h3 id="pausa7" class="pausa__nome" data-i18n="l.c.t">La colazione</h3>
+        <p class="pausa__testo" data-i18n="l.c.p">Il cappuccino, anche di soia; i cornetti e le brioches: al pistacchio, alla crema, integrali col miele, vegane. La spremuta d'arance.</p>
+        <div class="pausa__foto">
+          <button type="button" class="foto" data-full="img/colazione.jpg" aria-label="Ingrandisci la foto" data-i18n-aria="m.ingrandisci"><img src="img/colazione.jpg" width="1000" height="1042" alt="Il cappuccino con la rosetta e il cornetto sul piattino." data-i18n-alt="a.colazione"></button>
+          <button type="button" class="foto" data-full="img/cornetto.jpg" aria-label="Ingrandisci la foto" data-i18n-aria="m.ingrandisci"><img src="img/cornetto.jpg" width="900" height="727" alt="Un cornetto alla crema sul piatto col tovagliolo, sul tavolino verde." data-i18n-alt="a.cornetto"></button>
+          <button type="button" class="foto" data-full="img/vetrina-cornetti.jpg" aria-label="Ingrandisci la foto" data-i18n-aria="m.ingrandisci"><img src="img/vetrina-cornetti.jpg" width="900" height="884" alt="I cornetti nella vetrina del banco." data-i18n-alt="a.vetrinacornetti"></button>
+        </div>
+      </article>
+      <article class="pausa pausa--12 reveal" aria-labelledby="pausa12">
+        <p class="pausa__ora" aria-hidden="true">12</p>
+        <h3 id="pausa12" class="pausa__nome" data-i18n="l.p.t">Il pranzo</h3>
+        <p class="pausa__testo" data-i18n="l.p.p">Il menù del giorno sulla lavagna: primi, secondi con contorno. E poi panini e focacce farcite, piadine, toast, insalatone.</p>
+        <div class="pausa__foto">
+          <button type="button" class="foto" data-full="img/panini.jpg" aria-label="Ingrandisci la foto" data-i18n-aria="m.ingrandisci"><img src="img/panini.jpg" width="960" height="720" alt="I panini farciti nella vetrina della tavola fredda." data-i18n-alt="a.panini"></button>
+          <button type="button" class="foto" data-full="img/focaccia.jpg" aria-label="Ingrandisci la foto" data-i18n-aria="m.ingrandisci"><img src="img/focaccia.jpg" width="900" height="592" alt="Una focaccia farcita sul piatto, sul tavolino verde." data-i18n-alt="a.focaccia"></button>
+          <button type="button" class="foto" data-full="img/insalatona.jpg" aria-label="Ingrandisci la foto" data-i18n-aria="m.ingrandisci"><img src="img/insalatona.jpg" width="960" height="720" alt="Un'insalatona in coppa con gamberi, zucchine grigliate, mais e carciofi." data-i18n-alt="a.insalatona"></button>
+        </div>
+      </article>
+      <article class="pausa pausa--15 reveal" aria-labelledby="pausa15">
+        <p class="pausa__ora" aria-hidden="true">15</p>
+        <h3 id="pausa15" class="pausa__nome" data-i18n="l.m.t">La pausa del pomeriggio</h3>
+        <p class="pausa__testo" data-i18n="l.m.p">Un caffè, le crostatine sotto la campana di vetro, due chiacchiere. Alle 17 si chiude.</p>
+        <div class="pausa__foto">
+          <button type="button" class="foto" data-full="img/campana.jpg" aria-label="Ingrandisci la foto" data-i18n-aria="m.ingrandisci"><img src="img/campana.jpg" width="800" height="720" alt="Le crostatine sotto la campana di vetro." data-i18n-alt="a.campana"></button>
+          <button type="button" class="foto" data-full="img/crostatine.jpg" aria-label="Ingrandisci la foto" data-i18n-aria="m.ingrandisci"><img src="img/crostatine.jpg" width="800" height="1067" alt="Due crostatine al pistacchio sul piatto." data-i18n-alt="a.crostatine"></button>
+          <button type="button" class="foto" data-full="img/alzata.jpg" aria-label="Ingrandisci la foto" data-i18n-aria="m.ingrandisci"><img src="img/alzata.jpg" width="960" height="539" alt="I cornetti sull'alzata di vetro col velo di zucchero." data-i18n-alt="a.alzata"></button>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ══════ IL LOCALE, DI SOPRA E DI SOTTO ══════ -->
+  <section id="locale" class="capitolo capitolo--bianco" aria-labelledby="localeT">
+    <p class="etichetta" data-i18n="c.etichetta">Il locale</p>
+    <h2 id="localeT" class="capitolo__titolo" data-i18n="c.titolo">Di sopra e di sotto</h2>
+    <p class="capitolo__sotto" data-i18n="c.sotto">Il banco in legno chiaro, la saletta coi tavoli scuri; su per la scala, il soppalco col lampadario di ferro e, sul muro, l'orologio coi numeri sparsi. Fuori, qualche tavolino. Il Caffè Sant'Orsola è di Katia e Nicola, dal luglio del 2019.</p>
+    <p class="piano__nome" data-i18n="c.sopra">Di sopra</p>
+    <div class="piano piano--sopra">
+      <figure class="reveal"><button type="button" class="foto" data-full="img/soppalco.jpg" aria-label="Ingrandisci la foto" data-i18n-aria="m.ingrandisci"><img src="img/soppalco.jpg" width="1400" height="1046" alt="Il soppalco: un tavolo di legno scuro, la ringhiera bianca a colonnine, il lampadario di ferro." data-i18n-alt="a.soppalco"></button><figcaption data-i18n="k.soppalco">Il soppalco</figcaption></figure>
+      <figure class="reveal"><button type="button" class="foto" data-full="img/lampadario.jpg" aria-label="Ingrandisci la foto" data-i18n-aria="m.ingrandisci"><img src="img/lampadario.jpg" width="1000" height="1340" alt="Il lampadario di ferro a candele sopra la ringhiera." data-i18n-alt="a.lampadario"></button><figcaption data-i18n="k.lampadario">Il lampadario</figcaption></figure>
+      <figure class="reveal"><button type="button" class="foto" data-full="img/orologio.jpg" aria-label="Ingrandisci la foto" data-i18n-aria="m.ingrandisci"><img src="img/orologio.jpg" width="1000" height="1340" alt="Il banco lungo la parete con gli sgabelli bianchi e, sul muro, l'orologio coi numeri sparsi." data-i18n-alt="a.orologio"></button><figcaption data-i18n="k.orologio">L'orologio coi numeri sparsi</figcaption></figure>
+    </div>
+    <div class="ringhiera" aria-hidden="true"></div>
+    <p class="piano__nome" data-i18n="c.sotto2">Di sotto</p>
+    <div class="piano piano--sotto">
+      <figure class="reveal"><button type="button" class="foto" data-full="img/vetrina.jpg" aria-label="Ingrandisci la foto" data-i18n-aria="m.ingrandisci"><img src="img/vetrina.jpg" width="960" height="959" alt="La vetrina scura nella cornice di pietra, con la scritta Caffè Sant'Orsola e i due chicchi." data-i18n-alt="a.vetrina"></button><figcaption data-i18n="k.vetrina">La vetrina</figcaption></figure>
+      <figure class="reveal"><button type="button" class="foto" data-full="img/banco.jpg" aria-label="Ingrandisci la foto" data-i18n-aria="m.ingrandisci"><img src="img/banco.jpg" width="960" height="720" alt="Il bancone in legno chiaro coi taglieri di tramezzini e focaccine, la macchina dell'espresso." data-i18n-alt="a.banco"></button><figcaption data-i18n="k.banco">Il banco, all'ora dell'aperitivo</figcaption></figure>
+      <figure class="reveal"><button type="button" class="foto" data-full="img/saletta.jpg" aria-label="Ingrandisci la foto" data-i18n-aria="m.ingrandisci"><img src="img/saletta.jpg" width="1100" height="1182" alt="La saletta coi tavoli di legno scuro e le sedie nere." data-i18n-alt="a.saletta"></button><figcaption data-i18n="k.saletta">La saletta</figcaption></figure>
+    </div>
+  </section>
+
+  <!-- ══════ DICONO: i tovagliolini sul verde dei tavolini ══════ -->
+  <section id="dicono" class="capitolo capitolo--lime" aria-labelledby="diconoT">
+    <p class="etichetta" data-i18n="d.etichetta">Dicono</p>
+    <h2 id="diconoT" class="capitolo__titolo" data-i18n="d.titolo">Due chiacchiere in buona compagnia</h2>
+    <p class="voto voto--sezione"><b class="voto__n">4,7</b> <span class="voto__su" data-i18n="d.google">su Google, 204 recensioni</span></p>
+    <ul class="tovaglioli">
+      <li class="tovagliolino reveal"><p class="tovagliolino__testo">«Cortesia, gentilezza sono gli ingredienti principali che condiscono i piatti. Tutto buono. I croissant con la spremuta sono la mia colazione preferita. Una certezza anche a pranzo a due passi da lavoro. A Milano servono più gentilezza e prossimità come si trovano qui!»</p><p class="tovagliolino__chi"><b>Matteo Marucco</b> <span data-i18n="d.g2a">Google, 2 anni fa</span></p></li>
+      <li class="tovagliolino reveal" lang="en"><p class="tovagliolino__testo">«We stumbled upon this lovely café tucked away from the busy main center, and it was exactly what we needed. […] The couple running the place (a very kind man and woman) provided excellent service. They were both so welcoming and attentive, making us feel right at home immediately. […]»</p><p class="tovagliolino__chi"><b>Zdeněk Konečný</b> <span data-i18n="d.g5m">Google, 5 mesi fa, in inglese</span></p></li>
+      <li class="tovagliolino reveal"><p class="tovagliolino__testo">«Colazioncina veramente soft!Locale piccino ma veramente ben curato, pulito […] Tutto buonissimo caffe ottimo e cappuccino perfetto, crema liscia e lucida, il signore prima di ordinarlo mi ha persino chiesto se preferivo cannella o cacao (ho preso cacao), servizio rapidissimo […]»</p><p class="tovagliolino__chi"><b>Vanessa Citterio</b> <span data-i18n="d.g1a">Google, un anno fa</span></p></li>
+      <li class="tovagliolino reveal" lang="en"><p class="tovagliolino__testo">«We visited Caffè Sant’Orsola around 8 a.m. on Friday, and the place was buzzing with locals, empty espresso cups stacking up on the counter. Despite the rush, the staff were professional, warm, and friendly. The coffee was excellent, the croissants delicious […]»</p><p class="tovagliolino__chi"><b>Kd R</b> <span data-i18n="d.g1ae">Google, un anno fa, in inglese</span></p></li>
+      <li class="tovagliolino reveal"><p class="tovagliolino__testo">«Personale dai modi squisiti. Puoi trovare tutto quello che cerchi in un ottimo bar di Milano. Piatti caldi, piadine, panpizza, croissant dolci e salati. Ottima scelta di birre e bibite. Ad un passo dal centro ma fuori dal caos. Consiglio vivamente.»</p><p class="tovagliolino__chi"><b>Simone Fari</b> <span data-i18n="d.g4a">Google, 4 anni fa</span></p></li>
+      <li class="tovagliolino reveal" lang="en"><p class="tovagliolino__testo">«Excellent Doppio Macchiatos, delicious pastries, freshly pressed orange juice, and tasty paninis. Nice outdoor seating and friendly service. We will be back tomorrow for more!»</p><p class="tovagliolino__chi"><b>Par Akerblom</b> <span data-i18n="d.g2ae">Google, 2 anni fa, in inglese</span></p></li>
+    </ul>
+    <p class="dicono__nota"><span data-i18n="d.nota">Dalle recensioni su Google, come sono state scritte; la frase in alto da una raccomandazione sulla nostra Pagina Facebook.</span> <a href="https://www.google.com/maps/search/?api=1&amp;query=Caff%C3%A8+Sant%27Orsola%2C+Via+Sant%27Orsola+5%2C+20123+Milano" target="_blank" rel="noopener" data-i18n="d.tutte">Tutte le recensioni su Google</a></p>
+  </section>
+
+  <!-- ══════ ORARI: la settimana, e agosto ══════ -->
+  <section id="orari" class="capitolo capitolo--pietra" aria-labelledby="orariT">
+    <p class="etichetta" data-i18n="o.etichetta">Orari</p>
+    <h2 id="orariT" class="capitolo__titolo" data-i18n="o.titolo">Dal lunedì al venerdì, dalle 7 alle 17</h2>
+    <div class="orari">
+      <div class="orari__settimana">
+        <p class="stato stato--orari" id="orarioStato2" aria-hidden="true"></p>
+        <div class="settimana" role="table" aria-label="Orari di apertura" data-i18n-aria="o.cap">
+          <div class="giorno" role="row" data-day="1"><span role="rowheader" data-i18n="g.lun">Lunedì</span><span role="cell">7–17</span></div>
+          <div class="giorno" role="row" data-day="2"><span role="rowheader" data-i18n="g.mar">Martedì</span><span role="cell">7–17</span></div>
+          <div class="giorno" role="row" data-day="3"><span role="rowheader" data-i18n="g.mer">Mercoledì</span><span role="cell">7–17</span></div>
+          <div class="giorno" role="row" data-day="4"><span role="rowheader" data-i18n="g.gio">Giovedì</span><span role="cell">7–17</span></div>
+          <div class="giorno" role="row" data-day="5"><span role="rowheader" data-i18n="g.ven">Venerdì</span><span role="cell">7–17</span></div>
+          <div class="giorno giorno--chiuso" role="row" data-day="6"><span role="rowheader" data-i18n="g.sab">Sabato</span><span role="cell" data-i18n="o.chiuso">chiuso</span></div>
+          <div class="giorno giorno--chiuso" role="row" data-day="0"><span role="rowheader" data-i18n="g.dom">Domenica</span><span role="cell" data-i18n="o.chiuso">chiuso</span></div>
+        </div>
+        <p class="orari__agosto" data-i18n="o.agosto">Ad agosto chiudiamo per ferie, come ogni anno: le date le scriviamo sulla Pagina Facebook e su Instagram.</p>
+        <ol class="anno" aria-hidden="true">
+          <li data-i18n="o.m1">gen</li><li data-i18n="o.m2">feb</li><li data-i18n="o.m3">mar</li><li data-i18n="o.m4">apr</li><li data-i18n="o.m5">mag</li><li data-i18n="o.m6">giu</li><li data-i18n="o.m7">lug</li><li class="anno__ferie" data-i18n="o.m8">ago</li><li data-i18n="o.m9">set</li><li data-i18n="o.m10">ott</li><li data-i18n="o.m11">nov</li><li data-i18n="o.m12">dic</li>
+        </ol>
+        <p class="orari__nota" data-i18n="o.nota">Orari dalla nostra scheda Google (settembre 2026).</p>
+      </div>
+      <figure class="orari__neve reveal"><img src="img/neve.jpg" width="570" height="540" alt="La facciata di notte sotto la neve, la vetrina accesa con la ghirlanda." data-i18n-alt="a.neve"><figcaption data-i18n="k.neve">«Neanche la neve ci ferma!!», scrivevamo il 28 dicembre 2020.</figcaption></figure>
+    </div>
+  </section>
+
+  <!-- ══════ DOVE ══════ -->
+  <section id="dove" class="capitolo capitolo--legno" aria-labelledby="doveT">
+    <p class="etichetta" data-i18n="w.etichetta">Dove</p>
+    <h2 id="doveT" class="capitolo__titolo" data-i18n="w.titolo">A due passi da Palazzo Borromeo</h2>
+    <div class="dove">
+      <div class="cartina reveal">
+        <iframe title="Mappa: Caffè Sant'Orsola, Via Sant'Orsola 5, Milano" data-i18n-title="w.mappa" src="https://maps.google.com/maps?q=Caff%C3%A8%20Sant%27Orsola%2C%20Via%20Sant%27Orsola%205%2C%2020123%20Milano&amp;z=16&amp;output=embed" width="600" height="400" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div>
+        <dl class="indirizzo">
+          <div><dt data-i18n="w.dove">Dove</dt><dd data-i18n="w.dovev">Via Sant'Orsola 5, 20123 Milano</dd></div>
+          <div><dt data-i18n="w.tram">In tram</dt><dd data-i18n="w.tramv">3 in Via Torino, a circa 270&nbsp;metri; 16 e 19 in Via Meravigli, a circa 310</dd></div>
+          <div><dt data-i18n="w.metro">In metro</dt><dd data-i18n="w.metrov">M1 Cordusio, a circa 460&nbsp;metri; M4 De Amicis, a circa 520; M1 e M3 Duomo, a circa 540</dd></div>
+          <div><dt data-i18n="w.tel">Telefono</dt><dd><a href="tel:+390231059506" class="intero">02 3105 9506</a></dd></div>
+          <div><dt>Email</dt><dd><a href="mailto:caffesantorsola@libero.it">caffesantorsola@libero.it</a></dd></div>
+        </dl>
+        <p class="dove__azioni"><a class="bottone bottone--pieno" href="https://www.google.com/maps/dir/?api=1&amp;destination=Caff%C3%A8+Sant%27Orsola%2C+Via+Sant%27Orsola+5%2C+20123+Milano" target="_blank" rel="noopener" data-i18n="t.indicazioni">Indicazioni</a> <a class="bottone bottone--vuoto" href="tel:+390231059506"><span data-i18n="t.chiama">Chiama</span></a></p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="piede">
+  <div class="piede__dentro">
+    <p class="piede__marchio" aria-hidden="true">Caffè Sant'Orsola</p>
+    <p class="piede__dove">Via Sant'Orsola 5, 20123 Milano · <a href="tel:+390231059506" class="intero">02 3105 9506</a> · <a href="mailto:caffesantorsola@libero.it">caffesantorsola@libero.it</a></p>
+    <p class="piede__orario" data-i18n="f2.orario">Dal lunedì al venerdì, dalle 7 alle 17 · ad agosto chiusi per ferie</p>
+    <p class="piede__social"><a href="https://www.facebook.com/caffesantorsolamilano" target="_blank" rel="noopener">Facebook</a> · <a href="https://www.instagram.com/caffe_santorsola/" target="_blank" rel="noopener">Instagram</a></p>
+    <p class="piede__cred" data-i18n="f2.cred">Sito dimostrativo realizzato da <a href="https://bespokestud.io" rel="noopener">Bespoke Studio</a> · orari, voto e recensioni dalla loro scheda Google (settembre 2026); le foto del locale e le loro parole dalla loro Pagina Facebook e da Instagram, cinque foto di clienti su Google. La colazione l'abbiamo disegnata noi.</p>
+    <p><a class="piede__su" href="#inizio" data-i18n="f2.su">Torna su ↑</a></p>
+  </div>
+</footer>
+
+<div id="actionBar" class="action-bar">
+  <a href="tel:+390231059506"><span data-i18n="t.chiama">Chiama</span></a>
+  <a href="https://www.google.com/maps/dir/?api=1&amp;destination=Caff%C3%A8+Sant%27Orsola%2C+Via+Sant%27Orsola+5%2C+20123+Milano" target="_blank" rel="noopener"><span data-i18n="t.indicazioni">Indicazioni</span></a>
+</div>
+
+<div id="lightbox" hidden role="dialog" aria-modal="true" aria-label="Foto ingrandita" data-i18n-aria="m.lightbox">
+  <button id="lightboxClose" type="button" aria-label="Chiudi" data-i18n-aria="m.chiudi">×</button>
+  <img id="lightboxImg" src="" alt="">
+</div>
+
+</body>
+</html>
