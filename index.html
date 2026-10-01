@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
 <script>(function(){var r=document.documentElement;r.classList.remove('no-js');
 /* la firma: finché main.js non parte c'è la tazza vuota; se il codice non arriva, dopo 2,5 s la colazione servita */
 try{if(!matchMedia('(prefers-reduced-motion: reduce)').matches){r.classList.add('firma-attesa');window.__attesaColazione=setTimeout(function(){r.classList.remove('firma-attesa')},2500)}}catch(e){}})()</script>
@@ -20,15 +21,54 @@ try{if(!matchMedia('(prefers-reduced-motion: reduce)').matches){r.classList.add(
 <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
 <link rel="icon" href="img/favicon-32.png" sizes="32x32" type="image/png">
 <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&amp;family=Manuale:ital,wght@0,500;0,700;1,500&amp;family=Manjari:wght@400;700&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="fonts/fonts.css?v=1">
 <link rel="stylesheet" href="css/styles.css?v=1">
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js" defer></script>
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js" defer></script>
 <script src="js/main.js?v=1" defer></script>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"CafeOrCoffeeShop","name":"Caffè Sant'Orsola","description":"Bar tavola fredda in Via Sant'Orsola 5 a Milano, a due passi da Palazzo Borromeo: colazione con cappuccino e cornetti, pranzo col menù del giorno, panini, focacce e insalatone. Dal lunedì al venerdì dalle 7 alle 17.","url":"https://rotenzark.github.io/caffe-sant-orsola/","image":"https://rotenzark.github.io/caffe-sant-orsola/img/og.jpg","telephone":"+39 02 3105 9506","email":"caffesantorsola@libero.it","servesCuisine":"Italiana","address":{"@type":"PostalAddress","streetAddress":"Via Sant'Orsola 5","postalCode":"20123","addressLocality":"Milano","addressRegion":"MI","addressCountry":"IT"},"geo":{"@type":"GeoCoordinates","latitude":45.4628779,"longitude":9.1817064},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"07:00","closes":"17:00"}],"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.7","reviewCount":"204","bestRating":"5"},"sameAs":["https://www.facebook.com/caffesantorsolamilano","https://www.instagram.com/caffe_santorsola/"]}
+{
+  "@context": "https://schema.org",
+  "@type": "CafeOrCoffeeShop",
+  "name": "Caffè Sant'Orsola",
+  "description": "Bar tavola fredda in Via Sant'Orsola 5 a Milano, a due passi da Palazzo Borromeo: colazione con cappuccino e cornetti, pranzo col menù del giorno, panini, focacce e insalatone. Dal lunedì al venerdì dalle 7 alle 17.",
+  "url": "https://rotenzark.github.io/caffe-sant-orsola/",
+  "image": "https://rotenzark.github.io/caffe-sant-orsola/img/og.jpg",
+  "telephone": "+39 02 3105 9506",
+  "email": "caffesantorsola@libero.it",
+  "servesCuisine": "Italiana",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Via Sant'Orsola 5",
+    "postalCode": "20123",
+    "addressLocality": "Milano",
+    "addressRegion": "MI",
+    "addressCountry": "IT"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 45.4628779,
+    "longitude": 9.1817064
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "07:00",
+      "closes": "17:00"
+    }
+  ],
+  "sameAs": [
+    "https://www.facebook.com/caffesantorsolamilano",
+    "https://www.instagram.com/caffe_santorsola/"
+  ]
+}
 </script>
 </head>
 <body>
@@ -79,7 +119,7 @@ try{if(!matchMedia('(prefers-reduced-motion: reduce)').matches){r.classList.add(
       <p class="apertura__frase" data-i18n="h.testo">Dal lunedì al venerdì, dalle 7 alle 17: la colazione, il pranzo, la pausa del pomeriggio. Da Katia e Nicola.</p>
       <p class="voto"><b class="voto__n">4,7</b> <span class="voto__su" data-i18n="h.google">su Google, 204 recensioni</span></p>
       <blockquote class="citazione">
-        <p>«Finalmente una ventata di freschezza, simpatia e professionalità in via Sant'Orsola !»</p>
+        <p lang="it">«Finalmente una ventata di freschezza, simpatia e professionalità in via Sant'Orsola !»</p>
         <footer data-i18n="h.chi">C. R., in una raccomandazione sulla nostra Pagina Facebook</footer>
       </blockquote>
       <p class="stato" id="orarioStato">Dal lunedì al venerdì, 7–17</p>
@@ -203,11 +243,11 @@ try{if(!matchMedia('(prefers-reduced-motion: reduce)').matches){r.classList.add(
     <h2 id="diconoT" class="capitolo__titolo" data-i18n="d.titolo">Due chiacchiere in buona compagnia</h2>
     <p class="voto voto--sezione"><b class="voto__n">4,7</b> <span class="voto__su" data-i18n="d.google">su Google, 204 recensioni</span></p>
     <ul class="tovaglioli">
-      <li class="tovagliolino reveal"><p class="tovagliolino__testo">«Cortesia, gentilezza sono gli ingredienti principali che condiscono i piatti. Tutto buono. I croissant con la spremuta sono la mia colazione preferita. Una certezza anche a pranzo a due passi da lavoro. A Milano servono più gentilezza e prossimità come si trovano qui!»</p><p class="tovagliolino__chi"><b>Matteo Marucco</b> <span data-i18n="d.g2a">Google, 2 anni fa</span></p></li>
+      <li class="tovagliolino reveal"><p lang="it" class="tovagliolino__testo">«Cortesia, gentilezza sono gli ingredienti principali che condiscono i piatti. Tutto buono. I croissant con la spremuta sono la mia colazione preferita. Una certezza anche a pranzo a due passi da lavoro. A Milano servono più gentilezza e prossimità come si trovano qui!»</p><p class="tovagliolino__chi"><b>Matteo Marucco</b> <span data-i18n="d.g2a">Google, 2 anni fa</span></p></li>
       <li class="tovagliolino reveal" lang="en"><p class="tovagliolino__testo">«We stumbled upon this lovely café tucked away from the busy main center, and it was exactly what we needed. […] The couple running the place (a very kind man and woman) provided excellent service. They were both so welcoming and attentive, making us feel right at home immediately. […]»</p><p class="tovagliolino__chi"><b>Zdeněk Konečný</b> <span data-i18n="d.g5m">Google, 5 mesi fa, in inglese</span></p></li>
-      <li class="tovagliolino reveal"><p class="tovagliolino__testo">«Colazioncina veramente soft!Locale piccino ma veramente ben curato, pulito […] Tutto buonissimo caffe ottimo e cappuccino perfetto, crema liscia e lucida, il signore prima di ordinarlo mi ha persino chiesto se preferivo cannella o cacao (ho preso cacao), servizio rapidissimo […]»</p><p class="tovagliolino__chi"><b>Vanessa Citterio</b> <span data-i18n="d.g1a">Google, un anno fa</span></p></li>
+      <li class="tovagliolino reveal"><p lang="it" class="tovagliolino__testo">«Colazioncina veramente soft!Locale piccino ma veramente ben curato, pulito […] Tutto buonissimo caffe ottimo e cappuccino perfetto, crema liscia e lucida, il signore prima di ordinarlo mi ha persino chiesto se preferivo cannella o cacao (ho preso cacao), servizio rapidissimo […]»</p><p class="tovagliolino__chi"><b>Vanessa Citterio</b> <span data-i18n="d.g1a">Google, un anno fa</span></p></li>
       <li class="tovagliolino reveal" lang="en"><p class="tovagliolino__testo">«We visited Caffè Sant’Orsola around 8 a.m. on Friday, and the place was buzzing with locals, empty espresso cups stacking up on the counter. Despite the rush, the staff were professional, warm, and friendly. The coffee was excellent, the croissants delicious […]»</p><p class="tovagliolino__chi"><b>Kd R</b> <span data-i18n="d.g1ae">Google, un anno fa, in inglese</span></p></li>
-      <li class="tovagliolino reveal"><p class="tovagliolino__testo">«Personale dai modi squisiti. Puoi trovare tutto quello che cerchi in un ottimo bar di Milano. Piatti caldi, piadine, panpizza, croissant dolci e salati. Ottima scelta di birre e bibite. Ad un passo dal centro ma fuori dal caos. Consiglio vivamente.»</p><p class="tovagliolino__chi"><b>Simone Fari</b> <span data-i18n="d.g4a">Google, 4 anni fa</span></p></li>
+      <li class="tovagliolino reveal"><p lang="it" class="tovagliolino__testo">«Personale dai modi squisiti. Puoi trovare tutto quello che cerchi in un ottimo bar di Milano. Piatti caldi, piadine, panpizza, croissant dolci e salati. Ottima scelta di birre e bibite. Ad un passo dal centro ma fuori dal caos. Consiglio vivamente.»</p><p class="tovagliolino__chi"><b>Simone Fari</b> <span data-i18n="d.g4a">Google, 4 anni fa</span></p></li>
       <li class="tovagliolino reveal" lang="en"><p class="tovagliolino__testo">«Excellent Doppio Macchiatos, delicious pastries, freshly pressed orange juice, and tasty paninis. Nice outdoor seating and friendly service. We will be back tomorrow for more!»</p><p class="tovagliolino__chi"><b>Par Akerblom</b> <span data-i18n="d.g2ae">Google, 2 anni fa, in inglese</span></p></li>
     </ul>
     <p class="dicono__nota"><span data-i18n="d.nota">Dalle recensioni su Google, come sono state scritte; la frase in alto da una raccomandazione sulla nostra Pagina Facebook.</span> <a href="https://www.google.com/maps/search/?api=1&amp;query=Caff%C3%A8+Sant%27Orsola%2C+Via+Sant%27Orsola+5%2C+20123+Milano" target="_blank" rel="noopener" data-i18n="d.tutte">Tutte le recensioni su Google</a></p>
@@ -245,7 +285,7 @@ try{if(!matchMedia('(prefers-reduced-motion: reduce)').matches){r.classList.add(
     <h2 id="doveT" class="capitolo__titolo" data-i18n="w.titolo">A due passi da Palazzo Borromeo</h2>
     <div class="dove">
       <div class="cartina reveal">
-        <iframe title="Mappa: Caffè Sant'Orsola, Via Sant'Orsola 5, Milano" data-i18n-title="w.mappa" src="https://maps.google.com/maps?q=Caff%C3%A8%20Sant%27Orsola%2C%20Via%20Sant%27Orsola%205%2C%2020123%20Milano&amp;z=16&amp;output=embed" width="600" height="400" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="mappa-clic" data-mappa-clic style="--mappa-h: 400px"><template><iframe title="Mappa: Caffè Sant'Orsola, Via Sant'Orsola 5, Milano" data-i18n-title="w.mappa" src="https://maps.google.com/maps?q=Caff%C3%A8%20Sant%27Orsola%2C%20Via%20Sant%27Orsola%205%2C%2020123%20Milano&amp;z=16&amp;output=embed" width="600" height="400" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></template><div class="mappa-clic__velo"><a class="mappa-clic__btn" href="https://www.google.com/maps/dir/?api=1&amp;destination=Caff%C3%A8+Sant%27Orsola%2C+Via+Sant%27Orsola+5%2C+20123+Milano" target="_blank" rel="noopener">Mostra la mappa</a><p class="mappa-clic__nota">La mappa è di Google: aprendola, Google riceve il tuo indirizzo IP e può usare i suoi cookie.</p></div></div>
       </div>
       <div>
         <dl class="indirizzo">
@@ -268,7 +308,7 @@ try{if(!matchMedia('(prefers-reduced-motion: reduce)').matches){r.classList.add(
     <p class="piede__dove">Via Sant'Orsola 5, 20123 Milano · <a href="tel:+390231059506" class="intero">02 3105 9506</a> · <a href="mailto:caffesantorsola@libero.it">caffesantorsola@libero.it</a></p>
     <p class="piede__orario" data-i18n="f2.orario">Dal lunedì al venerdì, dalle 7 alle 17 · ad agosto chiusi per ferie</p>
     <p class="piede__social"><a href="https://www.facebook.com/caffesantorsolamilano" target="_blank" rel="noopener">Facebook</a> · <a href="https://www.instagram.com/caffe_santorsola/" target="_blank" rel="noopener">Instagram</a></p>
-    <p class="piede__cred" data-i18n="f2.cred">Sito dimostrativo realizzato da <a href="https://bespokestud.io" rel="noopener">Bespoke Studio</a> · orari, voto e recensioni dalla loro scheda Google (settembre 2026); le foto del locale e le loro parole dalla loro Pagina Facebook e da Instagram, cinque foto di clienti su Google. La colazione l'abbiamo disegnata noi.</p>
+    <p class="piede__cred" data-i18n="f2.cred">Sito dimostrativo realizzato da <a href="https://bespokestud.io" rel="noopener">Bespoke Studio</a> · <a href="privacy.html">Privacy</a> · orari, voto e recensioni dalla loro scheda Google (settembre 2026); le foto del locale e le loro parole dalla loro Pagina Facebook e da Instagram, cinque foto di clienti su Google. La colazione l'abbiamo disegnata noi.</p>
     <p><a class="piede__su" href="#inizio" data-i18n="f2.su">Torna su ↑</a></p>
   </div>
 </footer>
@@ -283,5 +323,6 @@ try{if(!matchMedia('(prefers-reduced-motion: reduce)').matches){r.classList.add(
   <img id="lightboxImg" src="" alt="">
 </div>
 
+<script src="js/mappa-clic.js?v=1" defer></script>
 </body>
 </html>
